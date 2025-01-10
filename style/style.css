@@ -20,7 +20,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0px 200px 50px 200px;
+    padding-top: 70px;
 }
 .nav-title{
     font-weight: 800;
@@ -146,7 +147,8 @@ nav ul{
 .head{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: bottom left, bottom right;
+
 }
 /* main style */
 main{
