@@ -187,3 +187,96 @@ main{
     border-radius: 6px;
     box-shadow: 0px 6px 50px rgb(248, 222, 222);
 }
+
+
+/* resume style */
+.resume{
+    margin-bottom: 113px;
+}
+
+.education-experiance{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.resume h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+.education h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.experiance h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.education-title, .experiance-title{
+    font-size: 25px;
+    font-weight: 800;
+}
+.education-sub-title, .experiance-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.education-description, .experiance-description, .social-info {
+    font-size: 16px;
+    color: #757575;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* footer style */
+
+
+.opinion{
+    display: flex;
+    flex-direction: row;
+    padding: 130px 230px;
+    gap: 100px;
+
+}
+
+.connect{
+    font-size: 35px;
+    font-weight: 800;
+    color: #181818;
+}
+.social-logo{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"]{
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 2px 20px;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+footer textarea{
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 20px 20px;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
