@@ -210,22 +210,31 @@ main{
 .education h3{
     font-size: 30px;
     font-weight: 800;
+    color: #474747;
 }
 .experiance h3{
     font-size: 30px;
     font-weight: 800;
+    color: #474747;
+}
+.education-name, .experiance-name{
+    margin: 30px 0;
 }
 .education-title, .experiance-title{
     font-size: 25px;
     font-weight: 800;
+    color: #474747;
 }
 .education-sub-title, .experiance-sub-title{
     font-size: 20px;
     font-weight: 600;
+    color: #757575;
+    margin: 10px 0;
 }
 .education-description, .experiance-description, .social-info {
     font-size: 16px;
     color: #757575;
+    margin: 10px 0;
 }
 .resume{
     display: flex;
